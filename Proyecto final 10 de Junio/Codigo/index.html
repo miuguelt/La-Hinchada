@@ -1,0 +1,932 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Style 04 (Red) - Menu by Apycom.com</title>
+    <link rel="stylesheet" href="hoja2.css" type="text/css" media="screen"/>
+    <link type="text/css" href="menu.css" rel="stylesheet" />
+    <link type="text/css" href="lore.css"rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.6.1.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <!-- parte de la animacion -->
+    <style>
+    	#header{
+				height:180px; 
+				background: #8EC1DA url(images/bg-clouds.png) repeat-y scroll left top;
+				text-align:center;
+				margin-top:-30px;
+			}
+			
+			#header h1{
+				padding-top:35px;
+				font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+				color:white;
+				font-size:45px;
+				
+			}
+			.ti{
+				 
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: none;
+			}
+    </style>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+        <script type="text/javascript" >
+//script para validar las contrasenas        
+function checkPw(form) {
+
+pw1 =document.forms[1].pw1.value;
+pw2 = document.forms[1].pw2.value;
+if(pw1=='')
+{
+   alert('Introduzca su clave');
+   document.forms[1].pw1.focus();
+   return false;
+}
+else if(pw2=='')
+{
+   alert('Introduzca la repeticion de su clave');
+   document.forms[1].pw2.focus();
+   return false;
+}
+else if (pw1 != pw2) {
+alert ("\nlas contraseñas introducidas no coinciden. Por favor, vuelva a introducirlas.")
+return false;
+}
+
+}
+        
+        
+         </script>
+        
+        
+        <title>La Hinchada</title>
+		<meta name="author" content="stip" >
+		<!-- Date: 2011-05-28 -->
+		<link rel="stylesheet" href="hojas.css">
+     	<script language="JavaScript" type="text/javascript" src="date-picker.js"></script>
+        
+     <!--    //librería jQuery-->
+
+    
+    <script type="text/javascript"> 
+$(document).ready(function(){
+	$(".trigger").click(function(){
+		$(".panel").toggle("fast");
+		$(this).toggleClass("active");
+		return false;
+	});
+});
+</script> 
+
+</head>
+
+
+<body>
+
+		
+		
+<style type="text/css">
+	}
+	div#copyright {
+	    margin:0 auto;
+	    width:80%;
+	    font:11px 'Trebuchet MS';
+	    color:#851300;
+	    text-indent:20px;
+	    padding:40px 0 0 0;
+	}
+	div#copyright a { color:#ff0000; }
+	div#copyright a:hover { color:#851300; }
+</style>
+
+<script type="text/javascript">
+	//animacion con jquary para el encabezado
+	$("#encabezado").hide
+</script>
+<div id="header">
+					<h1 class="ti">Bienvenidos</h1>	
+			</div>
+<div id="wrapper">
+			<center>
+			<div id="encabezado"><b>LA HINCHADA</b></div>
+			  </center>
+
+
+<div id="menu">
+    <ul class="menu">
+        <li><a href="#" class="parent"><span>Home</span></a>
+            <div><ul>
+                <li><a href="#" class="parent"><span>Sub Item 1</span></a>
+                    <div><ul>
+                        <li><a href="#" class="parent"><span>Sub Item 1.1</span></a>
+                            <div><ul>
+                                <li><a href="#"><span>Sub Item 1.1.1</span></a></li>
+                                <li><a href="#"><span>Sub Item 1.1.2</span></a></li>
+                            </ul></div>
+                        </li>
+                        <li><a href="#"><span>Sub Item 1.2</span></a></li>
+                        <li><a href="#"><span>Sub Item 1.3</span></a></li>
+                        <li><a href="#"><span>Sub Item 1.4</span></a></li>
+                        <li><a href="#"><span>Sub Item 1.5</span></a></li>
+                        <li><a href="#"><span>Sub Item 1.6</span></a></li>
+                        <li><a href="#" class="parent"><span>Sub Item 1.7</span></a>
+                            <div><ul>
+                                <li><a href="#"><span>Sub Item 1.7.1</span></a></li>
+                                <li><a href="#"><span>Sub Item 1.7.2</span></a></li>
+                            </ul></div>
+                        </li>
+                    </ul></div>
+                </li>
+                <li><a href="#"><span>Sub Item 2</span></a></li>
+                <li><a href="#"><span>Sub Item 3</span></a></li>
+            </ul></div>
+        </li>
+        <li><a href="#" class="parent"><span>Deportes</span></a>
+            <div><ul>
+                <li><a href="#" class="parent"><span>Futbol</span></a>
+                    <div><ul>
+                        <li><a href="#"><span>Noticias</span></a></li>
+                        <li><a href="#"><span>Historia</span></a></li>
+                        <li><a href="#"><span>Reglamento</span></a></li>
+                    </ul></div>
+                </li>
+                <li><a href="#" class="parent"><span>Tenins</span></a>
+                    <div><ul>
+                        <li><a href="#"><span>Noticias</span></a></li>
+                        <li><a href="#"><span>Sub Item 2.2</span></a></li>
+                    </ul></div>
+                </li>
+                <li><a href="#"><span>Automivilismo</span></a></li>
+                <li><a href="#"><span>Basketbol</span></a></li>
+                
+            </ul></div>
+        </li>
+        <li><a href="#"><span>Lo último</span></a>
+        <div><ul>
+                <li><a href="#" class="parent"><span>NOticias</span></a>
+                    <div><ul>
+                        <li><a href="#"><span>....</span></a></li>
+                        <li><a href="#"><span>item</span></a></li>
+                        <li><a href="#"><span>item2</span></a></li>
+                    </ul></div>
+                </li>
+                <li><a href="#" class="parent"><span>Torneos</span></a>
+                    <div><ul>
+                        <li><a href="#"><span>Inter</span></a></li>
+                        <li><a href="#"><span>Sub Item 2.2</span></a></li>
+                    </ul></div>
+                </li>
+                <li><a href="#"><span>Fichaje</span></a></li>
+                
+                
+            </ul></div>
+            </li>
+        <li class="last"><a href="#"><span>Contactenos</span></a></li>
+        <li class="last"><a href="#"><span>Acerca de</span></a></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+         <li class="otras"><span></span></li>
+          <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+       
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+         <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+         <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+        <li class="otras"><span></span></li>
+    </ul>
+</div>
+
+
+
+<form name="F">
+	
+		<h1>Ingrese</h1>
+
+	<p>
+		<label for="name">Nombre usuario</label>
+		<input id="name" type="text" />
+	</p>
+	<p>
+		<label for="password">Contraseña</label>
+		<input id="password" type="password" />
+	</p>
+	<p>
+		<a class="submit" href="#finish">Enviar</a>
+	</p>			  
+	<br>
+	<br>
+
+</form>
+
+
+<!-- The JavaScript -->
+        
+        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                var current = 1;
+                
+                var iterate		= function(){
+                    var i = parseInt(current+1);
+                    var lis = $('#rotmenu').children('li').size();
+                    if(i>lis) i = 1;
+                    display($('#rotmenu li:nth-child('+i+')'));
+                }
+                display($('#rotmenu li:first'));
+                var slidetime = setInterval(iterate,3000);
+				
+                $('#rotmenu li').bind('click',function(e){
+                    clearTimeout(slidetime);
+                    display($(this));
+                    e.preventDefault();
+                });
+				
+                function display(elem){
+                    var $this 	= elem;
+                    var repeat 	= false;
+                    if(current == parseInt($this.index() + 1))
+                        repeat = true;
+					
+                    if(!repeat)
+                        $this.parent().find('li:nth-child('+current+') a').stop(true,true).animate({'marginRight':'-20px'},300,function(){
+                            $(this).animate({'opacity':'0.7'},700);
+                        });
+					
+                    current = parseInt($this.index() + 1);
+					
+                    var elem = $('a',$this);
+                    
+                        elem.stop(true,true).animate({'marginRight':'0px','opacity':'1.0'},300);
+					
+                    var info_elem = elem.next();
+                    $('#rot1 .heading').animate({'left':'-420px'}, 450,'easeOutCirc',function(){
+
+                        $('h1',$(this)).html(info_elem.find('.info_heading').html());
+                        $(this).animate({'left':'0px'},400,'easeInOutQuad');
+                    });
+					
+                    $('#rot1 .description').animate({'bottom':'-270px'},500,'easeOutCirc',function(){
+                        $('p',$(this)).html(info_elem.find('.info_description').html());
+                        $(this).animate({'bottom':'0px'},400,'easeInOutQuad');
+                    })
+                    $('#rot1').prepend(
+                    $('<img/>',{
+                        style	:	'opacity:0',
+                        className : 'bg'
+                    }).load(
+                    function(){
+                        $(this).animate({'opacity':'1'},600);
+                        $('#rot1 img:first').next().animate({'opacity':'0'},700,function(){
+                            $(this).remove();
+                        });
+                    }
+                ).attr('src','../Recursos/'+info_elem.find('.info_image').html()).attr('width','800').attr('height','300')
+                );
+                }
+            });
+        </script>
+
+       
+        <div id="textarea">
+            <a class="back" href=""></a>
+
+            <div class="rotator">
+                <ul id="rotmenu">
+                    <li>
+
+                        <a href="rot1">Futbol</a>
+                        <div style="display:none;">
+
+                            <div class="info_image">joseph_blatter.jpg</div>
+                            <div class="info_heading">Joseph S. Blatter reelegido</div>
+                            <div class="info_description">
+				El 61.º Congreso de la FIFA, reunido el 31 de mayo y
+				 el 1 de junio en Zúrich, ha reelegido a Joseph S. Blatter como 
+		Presidente de la FIFA para un cuarto mandato que termina en 2015.
+                                <a href="http://es.fifa.com/worldfootball/lawsofthegame/index.html" class="more">Leer »</a>
+
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="rot2">Automovilismo</a>
+                        <div style="display:none;">
+                            <div class="info_image">red-bull.jpg</div>
+                            <div class="info_heading">Autitos chocadores</div>
+
+                            <div class="info_description">
+
+				 En una carrera muy accidentada, Vettel volvió a ganar. 
+				 Alonso fue segundo. Hamilton sacó a Pastor Maldonado de carrera
+				  cuando estaba sexto, a sólo cinco vueltas del final.
+                                <a href="http://espndeportes.espn.go.com/news/story?id=1304963&s=mot&type=story" class="more">Leer »</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="rot3">Básquetbol</a>
+
+                        <div style="display:none;">
+
+                            <div class="info_image">nba.jpg</div>
+                            <div class="info_heading">¡Hasta la vista!</div>
+                            <div class="info_description">
+				Shaquille O'Neal oficializó el viernes su retiro de la NBA, 
+				culminando una carrera de 19 años en la liga. 
+                                <a href="http://espndeportes.espn.go.com/los-angeles/nota/_/id/1308884/termina-la-era-de-shaq" class="more">Leer »</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="rot4">Tenis</a>
+                        <div style="display:none;">
+                            <div class="info_image">NoleyRoger.jpg</div>
+                            <div class="info_heading">Hasta acá llegó</div>
+                            <div class="info_description">
+
+				 Federer derrotó a Djokovic, le cortó el invicto y lo privó por 
+				 ahora de ser el N° 1. Definirá Roland Garros contra Nadal. 
+                                <a href="http://espndeportes.espn.go.com/news/story?id=1308558&s=ten&type=story" class="more">Leer »</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                        
+                </ul>
+                <div id="rot1">
+                    <img src="" width="800" height="300" class="bg" alt=""/>
+
+                    <div class="heading">
+                        <h1></h1>
+                    </div>
+                    <div class="description">
+                        <p></p>
+
+                    </div>    
+                </div>
+            </div>
+            
+            
+            
+           
+           <!-- Inicio parte de Lore -->
+           
+             <div id="encabezado2">Videos destacados</div>
+		
+		
+			 <div id="search-pva" class="ytg-2col-b ytg-last new-snippets">
+				
+				<div class="sidebar-ads">
+					<a class="ux-thumb-wrap result-item-thumb" href="http://www.youtube.com/watch?v=2EZYFyZbB3M&feature=fvsr">
+						<span class="video-thumb ux-thumb-128 ">
+							<span class="clip"><img alt="Miniatura" src="http://i3.ytimg.com/vi/2EZYFyZbB3M/default.jpg">
+							</span>
+							</span>
+							<span class="video-time">1:01</span>
+							</a>
+							<div class="result-item-main-content">
+								<h3 dir="ltr">
+									<a title="" href="http://www.youtube.com/watch?v=2EZYFyZbB3M&feature=fvsr">Kak&aacute; critica a Benzema: "A veces desaparece de los<b>partidos</b></a>
+									</h3>
+									<p class="search-ad-description" dir="ltr">
+										El brasile&ntilde;o tambi&eacute;n ha comentado que Mourinho les ha asegurado que se...&nbsp;
+										</p>
+										</div>
+										<p class="facets">
+											
+												<span class="metadata-separator">|</span>
+												<strong dir="ltr">Visto 6932 veces</strong>
+												</p>
+					</div>	
+					
+											
+		         <div class="sidebar-ads">
+													
+					<a class="ux-thumb-wrap result-item-thumb" href="/watch?v=Muy-qGo8a0c&feature=fvsr">
+						<span class="video-thumb ux-thumb-128 ">
+							<span class="clip"><img alt="Miniatura" src="http://i1.ytimg.com/vi/pcaoqQJHQv0/default.jpg">
+							</span>
+							</span>
+							<span class="video-time">2:00</span>
+							</a>
+							<div class="result-item-main-content">
+								<h3 dir="ltr" class="videoh3">
+									<a title="" href="http://www.youtube.com/watch?v=pcaoqQJHQv0&feature=fvsr">Ferrari 250 TR (El m&aacute;s caro del mundo)</a>
+									</h3>
+									<p class="search-ad-description" dir="ltr">
+										Ferrari de 1957, situ&aacute;ndose as&iacute; como el m&aacute;s caro del mundo.
+										<b>...</b>...&nbsp;
+										</p>
+										</div>
+										<p class="facets">
+											
+												<span class="metadata-separator">|</span>
+												<strong dir="ltr">Visto 26424 veces</strong>
+												</p>
+												
+					</div>	
+					
+									
+					<div class="sidebar-ads">
+													
+					<a class="ux-thumb-wrap result-item-thumb" href="/watch?v=Muy-qGo8a0c&feature=fvsr">
+						<span class="video-thumb ux-thumb-128 ">
+							<span class="clip"><img alt="Miniatura" src="http://i1.ytimg.com/vi/HhVZLQIb-wE/default.jpg">
+							</span>
+							</span>
+							<span class="video-time">1:38</span>
+							</a>
+							<div class="result-item-main-content">
+								<h3 dir="ltr" class="videoh3">
+									<a title="" href="http://www.youtube.com/watch?v=HhVZLQIb-wE"><b>Volleyball</b>: Setting Drills and Fundamentals Part 2</a>
+									</h3>
+									<p class="search-ad-description" dir="ltr">
+										www.Kudda.com presents thousands of free youth sports coaching videos....&nbsp;
+										</p>
+										</div>
+										<p class="facets">
+											
+												<span class="metadata-separator">|</span>
+												<strong dir="ltr">Visto 103427 veces</strong>
+												</p>
+					</div>		
+					
+					
+					
+							
+					<div class="sidebar-ads">
+													
+					<a class="ux-thumb-wrap result-item-thumb" href="/watch?v=Muy-qGo8a0c&feature=fvsr">
+						<span class="video-thumb ux-thumb-128 ">
+							<span class="clip"><img alt="Miniatura" src="http://i1.ytimg.com/vi/dhbK73dXqHU/default.jpg">
+							</span>
+							</span>
+							<span class="video-time">12:14</span>
+							</a>
+							<div class="result-item-main-content">
+								<h3 dir="ltr" class="videoh3">
+									<a title="" href="/watch?v=Muy-qGo8a0c&feature=fvsr"><b>NBA</b>2K11 My Player - Rookie Sophomore All-Star Game</a>
+									</h3>
+									<p class="search-ad-description" dir="ltr">
+										I was abusing Curry this game! 1:33 Skip intro 1:53 1st time owning Cu...&nbsp;
+										</p>
+										</div>
+										<p class="facets">
+											
+												<span class="metadata-separator">|</span>
+												<strong dir="ltr">Visto 186809 veces</strong>
+												</p>
+												
+					</div>
+		  
+          </div>
+           <!-- Fin parte de Lore -->
+           
+           
+           
+           
+           
+           	<!-- Inicio parte de Miguel --> 
+  				<br />
+  				<div id="noticias">
+  					<hr>
+  					<h1>NOTICIAS</h1>
+  					<div id="gallery">
+					<div class="images">
+						<div class="slide">
+			
+								<a href="#x" class="next n0" tabindex="1"></a><div class="slidePanel panel0">
+									<div class="innerPanel">
+										<blockquote class="ctr">Click sobre los balones para ver más noticias</blockquote>
+			
+									</div>
+								</div><a href="#x" class="next n1" tabindex="1"></a>
+								<div class="slidePanel panel1">
+									<div class="innerPanel">										
+										<h1>Un Villano al arco</h1>
+			
+										<br />
+										
+										<img src="../Recursos/noticiafut.jpg" alt="Stencil on the waterline of The Thekla" />
+										<p>Tottenham contrató al arquero estadounidense Brad Friedel, cuyo contrato en Aston
+											 Villa estaba por expirar. El ahora exvillano llega a White Hart Lane para pelearle el 
+											 lugar a Heurelho Gomes. <a href="http://espndeportes.espn.go.com/news/story?id=1308616&s=eng&type=story">Leer »</a></p>	
+									</div>
+			
+								</div><a href="#x" class="next n2" tabindex="1"></a>
+								
+								<div class="slidePanel panel2">
+									<div class="innerPanel">
+										<h1>Na Li derrotó a Schiavone en la final</h1>
+			
+										<br />
+										
+										<img class="ima_miguel" src="../Recursos/notigeneral/g_nali.jpg" alt="Foto de Na Li" />
+										<p>PARÍS -- Na Li hizo el partido de su vida y entró en la historia al convertirse en el primer deportista chino (hombre o mujer) que gana un Grand Slam, al destronar en la final de Roland Garros a la defensora, la italiana Francesca Schiavone, por 6-4 y 7-6(0). 
+											<a href="http://espndeportes.espn.go.com/news/story?id=1309308&s=ten&type=story">Leer »</a></p>	
+			
+									</div>
+								</div><a href="#x" class="next n3" tabindex="1"></a>
+								
+								<div class="slidePanel panel3">
+									<div class="innerPanel">
+										
+										<h1>La F1 Bahrein será en octubre; el equipo Red Bull en la mira de activistas</h1>
+										<br />
+										<img class="ima_miguel" src="../Recursos/notigeneral/auto.jpg" alt="Imagen Automovil" />
+										<p>(CNN) — El Gran Premio de Bahrein fue reinstaurado en el calendario 2011 de la Fórmula Uno, después de que los disturbios forzaran al reino del Golfo Pérsico a cancelarlo a principio de año, anunciaron funcionarios este viernes.
+											<a href="http://mexico.cnn.com/deportes/2011/06/03/la-f1-bahrein-sera-en-octubre-el-equipo-red-bull-en-la-mira-de-activistas">Leer »</a></p>	
+
+									</div>
+								</div><a href="#x" class="next n4" tabindex="1"></a>
+								
+								<div class="slidePanel panel4">			
+									<div class="innerPanel">
+										<h1>Echagüe derrotó a Unión de Crespo y ratificó su levantada en el Apertura</h1>
+										<br />
+										<img class="ima_miguel" src="../Recursos/notigeneral/basquet.jpg" alt="Imagen Automovil" />
+										<p>(El Atlético Echagüe Club goleó a Unión de Crespo en la continuidad de la décima fecha del torneo Apertura de la Asociación Paranaense de Básquetbol (APB). El Negro se impuso por 92 a 62 en el estadio Luis Butta y logró un resultado importante para meterse entre los animadores del campeonato de Primera División. Con el peso de sus individualidades, especialmente de Román Memo Rodríguez que totalizó 32 puntos, el equipo de Miguel Zandomeni no tuvo inconvenientes para resolver el duelo ante el Verde, disputado este viernes. La programación de este capítulo concluirá este sábado con dos partidos programados para las 19.30. El entonado Talleres recibirá al alicaído Rowing, mientras que Quique y Patronato se medirán en el escenario de calle Alsina en busca de su primer alegría en el certamen.
+											<a href="http://www.analisisdigital.com.ar/noticias.php?ed=1&di=0&no=147372">Leer »</a></p>	
+
+									</div>
+								</div></a><a href="#x" class="next n5" tabindex="1"></a>
+								
+								<div class="slidePanel panel5">
+									<div class="innerPanel">
+			
+										<img src="cssplay31/banksy-sweep.jpg" alt="Banksy Graffiti - Sweep" />
+										<p>Banksy - Sweep it away</p>
+									</div>
+								</div><a href="#x" class="next n6" tabindex="1"></a>
+								
+								<div class="slidePanel panel6">
+								
+								<div class="innerPanel">
+										<img src="cssplay31/chainsaw.jpg" alt="Banksy - Monkey holding a chainsaw" />
+			
+										<blockquote>"Graffiti ultimately wins out over proper art because it becomes part of your city, it' s a tool; 'I'll meet you in that pub, you know, the one opposite that wall with a picture of a monkey holding a chainsaw'. I mean, how much more useful can a painting be than that?"</blockquote>
+										<p> - Banksy (Banging Your Head Against a Brick Wall)</p>
+			
+									</div>
+								</div><span class="pad"></span>
+						</div>
+					</div>
+				</div> 				
+  			</div>     
+  
+            <!-- Fin parte de Miguel -->
+            
+            
+           
+           
+           
+            
+        </div>
+ 
+ 
+        
+    <div class="panel" > 
+	
+ <form name="F1" class="for" onsubmit="checkPw(this);">
+	
+					
+<br>
+
+<label for="name">Nombre</label>
+<br><br>
+<input  name="name" type="text" placeholder="Escribe tu nombre completo" required autofocus >
+<br><br>
+<label for="name">Email</label>
+<br><br>
+<input id="name" name="email" type="email" placeholder="ejemplo@dominio.com" required >
+<br><br>
+<label for="name">Teléfono</label>
+
+<br><br>
+<input id="name" name="telefono" type="tel" placeholder="Ej. +12112154" required > 
+<br><br>
+<label for="name">País</label>
+<br><br>
+<select id="name" name="country" width=10>
+<option value="AF">Afghanistan</option>
+<option value="AL">Albania</option>
+<option value="DZ">Algeria</option>
+<option value="AS">American Samoa</option>
+<option value="AD">Andorra</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguilla</option>
+<option value="AG">Antigua and Barbuda</option>
+<option value="AR">Argentina</option>
+<option value="AM">Armenia</option>
+<option value="AW">Aruba</option>
+<option value="AC">Ascension Island</option>
+<option value="AU">Australia</option>
+<option value="AT">Austria</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BH">Bahrain</option>
+<option value="BD">Bangladesh</option>
+<option value="BB">Barbados</option>
+<option value="BY">Belarus</option>
+<option value="BE">Belgium</option>
+<option value="BZ">Belize</option>
+<option value="BJ">Benin</option>
+<option value="BM">Bermuda</option>
+<option value="BT">Bhutan</option>
+<option value="BO">Bolivia</option>
+<option value="BA">Bosnia and Herzegovina</option>
+<option value="BW">Botswana</option>
+<option value="BR">Brazil</option>
+<option value="IO">Brit Indian Ocean Terr</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BG">Bulgaria</option>
+<option value="BF">Burkina Faso</option>
+<option value="BI">Burundi</option>
+<option value="KH">Cambodia</option>
+<option value="CM">Cameroon</option>
+<option value="CA">Canada</option>
+<option value="CV">Cape Verde</option>
+<option value="KY">Cayman Islands</option>
+<option value="CF">Central African Republic</option>
+<option value="TD">Chad</option>
+<option value="CL">Chile</option>
+<option value="CN">China</option>
+<option value="CO">Colombia</option>
+<option value="KM">Comoros</option>
+<option value="CG">Congo</option>
+<option value="CK">Cook Islands</option>
+<option value="CR">Costa Rica</option>
+<option value="CI">Cote D Ivoire</option>
+<option value="HR">Croatia</option>
+<option value="CU">Cuba</option>
+<option value="CY">Cyprus</option>
+<option value="CZ">Czech Republic</option>
+<option value="CD">Democratic republic of Congo</option>
+<option value="DK">Denmark</option>
+<option value="DJ">Djibouti</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="EC">Ecuador</option>
+<option value="EG">Egypt</option>
+<option value="SV">El Salvador</option>
+<option value="GQ">Equatorial Guinea</option>
+<option value="ER">Eritrea</option>
+<option value="EE">Estonia</option>
+<option value="ET">Ethiopia</option>
+<option value="FK">Falkland Islands</option>
+<option value="FO">Faroe Islands</option>
+<option value="FM">Fed States Micronesia</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finland</option>
+<option value="YU">Fmr Yugoslavia</option>
+<option value="FR">France</option>
+<option value="GF">French Guiana</option>
+<option value="PF">French Polynesia</option>
+<option value="GA">Gabon</option>
+<option value="GE">Georgia</option>
+<option value="DE">Germany</option>
+<option value="GH">Ghana</option>
+<option value="GI">Gibralter</option>
+<option value="GR">Greece</option>
+<option value="GL">Greenland</option>
+<option value="GD">Grenada</option>
+<option value="GP">Guadeloupe</option>
+<option value="GU">Guam</option>
+<option value="GT">Guatemala</option>
+<option value="GN">Guinea</option>
+<option value="GW">Guinea Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HT">Haiti</option>
+<option value="HN">Honduras</option>
+<option value="HK">Hong Kong</option>
+<option value="HU">Hungary</option>
+<option value="IS">Iceland</option>
+<option value="IN">India</option>
+<option value="ID">Indonesia</option>
+<option value="IR">Iran</option>
+<option value="IQ">Iraq</option>
+<option value="IE">Ireland</option>
+<option value="IM">Isle of Man</option>
+<option value="IL">Israel</option>
+<option value="IT">Italy</option>
+<option value="JM">Jamaica</option>
+<option value="JP">Japan</option>
+<option value="JO">Jordan</option>
+<option value="KZ">Kazakhstan</option>
+<option value="KE">Kenya</option>
+<option value="KI">Kiribati</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="LA">Laos</option>
+<option value="LV">Latvia</option>
+<option value="LB">Lebanon</option>
+<option value="LS">Lesotho</option>
+<option value="LR">Liberia</option>
+<option value="LY">Libya</option>
+<option value="LI">Liechtenstein</option>
+<option value="LT">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="MO">Macau</option>
+<option value="MK">Macedonia</option>
+<option value="MG">Madagascar</option>
+<option value="MW">Malawi</option>
+<option value="MY">Malaysia</option>
+<option value="MV">Maldives</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MH">Marshall Islands</option>
+<option value="MQ">Martinique</option>
+<option value="MR">Mauritania</option>
+<option value="MU">Mauritius</option>
+<option value="YT">Mayotte</option>
+<option value="MX">Mexico</option>
+<option value="MD">Moldova</option>
+<option value="MC">Monaco</option>
+<option value="MN">Mongolia</option>
+<option value="ME">Montenegro</option>
+<option value="MS">Montserrat</option>
+<option value="MA">Morocco</option>
+<option value="MZ">Mozambique</option>
+<option value="MM">Myanmar</option>
+<option value="NA">Namibia</option>
+<option value="NR">Nauru</option>
+<option value="NP">Nepal</option>
+<option value="NL">Netherlands</option>
+<option value="AN">Netherlands Antilles</option>
+<option value="NC">New Caledonia</option>
+<option value="NZ">New Zealand</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">Niger</option>
+<option value="NG">Nigeria</option>
+<option value="NU">Niue</option>
+<option value="NF">Norfolk Island</option>
+<option value="KP">North Korea</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="NO">Norway</option>
+<option value="OM">Oman</option>
+<option value="PK">Pakistan</option>
+<option value="PW">Palau</option>
+<option value="PS">Palestine</option>
+<option value="PA">Panama</option>
+<option value="PG">Papua New Guinea</option>
+<option value="PY">Paraguay</option>
+<option value="PE">Peru</option>
+<option value="PH">Philippines</option>
+<option value="PN">Pitcairn</option>
+<option value="PL">Poland</option>
+<option value="PT">Portugal</option>
+<option value="PR">Puerto Rico</option>
+<option value="QA">Qatar</option>
+<option value="RE">Reunion</option>
+<option value="RO">Romania</option>
+<option value="RU">Russia</option>
+<option value="RW">Rwanda</option>
+<option value="SM">San Marino</option>
+<option value="ST">Sao Tome and Principe</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SN">Senegal</option>
+<option value="RS">Serbia</option>
+<option value="SC">Seychelles</option>
+<option value="SL">Sierra Leone</option>
+<option value="SG">Singapore</option>
+<option value="SK">Slovakia</option>
+<option value="SI">Slovenia</option>
+<option value="SB">Solomon Islands</option>
+<option value="SO">Somalia</option>
+<option value="ZA">South Africa</option>
+<option value="GS">South Georgia</option>
+<option value="KR">South Korea</option>
+<option value="ES">Spain</option>
+<option value="LK">Sri Lanka</option>
+<option value="VC">St. Vincent and Grenadines</option>
+<option value="KN">St. Kitts and Nevis</option>
+<option value="LC">St. Lucia</option>
+<option value="PM">St. Pierre and Miquelon</option>
+<option value="SD">Sudan</option>
+<option value="SR">Suriname</option>
+<option value="SZ">Swaziland</option>
+<option value="SE">Sweden</option>
+<option value="CH">Switzerland</option>
+<option value="SY">Syrian Arab Republic</option>
+<option value="TW">Taiwan</option>
+<option value="TJ">Tajikistan</option>
+<option value="TZ">Tanzania</option>
+<option value="TH">Thailand</option>
+<option value="GM">The Gambia</option>
+<option value="TL">Timor-Leste</option>
+<option value="TG">Togo</option>
+<option value="TK">Tokelau</option>
+<option value="TO">Tonga</option>
+<option value="TT">Trinidad and Tobago</option>
+<option value="TN">Tunisia</option>
+<option value="TR">Turkey</option>
+<option value="TM">Turkmenistan</option>
+<option value="TC">Turks/Caicos Islands</option>
+<option value="TV">Tuvalu</option>
+<option value="UG">Uganda</option>
+<option value="UA">Ukraine</option>
+<option value="AE">United Arab Emirates</option>
+<option value="GB">United Kingdom</option>
+<option value="US">United States of America</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VU">Vanuatu</option>
+<option value="VE">Venezuela</option>
+<option value="VN">Vietnam</option>
+<option value="VG">Virgin Islands (U.K)</option>
+<option value="VI">Virgin Islands (U.S)</option>
+<option value="WF">Wallis/Futuna Islands</option>
+<option value="EH">Western Samoa</option>
+<option value="YE">Yemen</option>
+<option value="ZM">Zambia</option>
+<option value="ZW">Zimbabwe</option>
+</select>
+
+
+
+
+
+<br><br>
+<label for="name">Ingresa tu Contraseña *</label>
+<br><br><br>
+<input   id="password"  type="password" name="pw1" required >
+<br><br>
+<label for="name">Confirma tu contraseña *</label>
+<br><br><br>
+<input   id="password"  type="password" name="pw2" required >
+
+<br><br>
+<label for="name" >Fecha de Nacimiento *</label>
+<br><br><br>
+	<input   id="name"  type="text" name="datebox" size=15 placeholder="16/10/1990" required >
+	<a href="javascript:show_calendar('F1.datebox');" onmouseover="window.status='Date Picker';return true;" onmouseout="window.status='';return true;">
+	<img src="show-calendar.gif" width=24 height=22 border=0 align="absmiddle"></a>
+	<br><br>
+	<input   class="submit"  type="submit" name="enviar" value="Enviar"> 
+	
+
+
+
+</form>
+	 
+
+<div style="clear:both;"></div> 
+ 
+
+</div> 
+<a class="trigger" href="#">Registrate</a> 
+
+
+
+
+<div id="copyright"> <a href="http://apycom.com/"></a></div>
+
+
+</div>
+
+</body>
+<script type="text/javascript" charset="utf-8">
+			var scrollSpeed = 1; 		// Speed in milliseconds
+			var step = 1; 				// How many pixels to move per step
+			var current = 0;			// The current pixel row
+			var imageWidth = 2200;		// Background image width
+			var headerWidth = 1280;		// How wide the header is.
+			
+			//The pixel row where to start a new loop
+			var restartPosition = -(imageWidth - headerWidth);
+			
+			function scrollBg(){
+				//Go to next pixel row.
+				current -= step;
+				
+				//If at the end of the image, then go to the top.
+				if (current == restartPosition){
+					current = 0;
+				}
+				
+				//Set the CSS of the header.
+				$('#header').css("background-position",current+"px 0");
+			}
+			
+			//Calls the scrolling function repeatedly
+			var init = setInterval("scrollBg()", scrollSpeed);
+	</script>
+</html>
